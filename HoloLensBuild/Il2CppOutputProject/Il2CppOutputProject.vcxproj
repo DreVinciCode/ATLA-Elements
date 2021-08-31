@@ -274,6 +274,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Assembly-CSharp1.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Assembly-CSharp_Attr.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\GenericMethods.cpp">
@@ -371,6 +373,8 @@
     <ClCompile Include="Source\il2cppOutput\Generics39.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics4.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Generics40.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Generics5.cpp">
     </ClCompile>
@@ -620,6 +624,8 @@
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCCWs94.cpp">
     </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppCCWs95.cpp">
+    </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppCodeRegistration.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericAdjustorThunkTable.cpp">
@@ -661,6 +667,8 @@
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions113.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions114.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions115.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Il2CppGenericComDefinitions12.cpp">
     </ClCompile>
@@ -1114,6 +1122,8 @@
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro3.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro4.cpp">
+    </ClCompile>
+    <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro5.cpp">
     </ClCompile>
     <ClCompile Include="Source\il2cppOutput\Unity.TextMeshPro_Attr.cpp">
     </ClCompile>

@@ -307,6 +307,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "SpriteRenderer",
+            "fullManagedTypeName": "UnityEngine.SpriteRenderer",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Main_Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioSource",
             "fullManagedTypeName": "UnityEngine.AudioSource",
             "moduleName": "Audio",
@@ -373,6 +382,24 @@
             "nativeClass": "BoxCollider",
             "fullManagedTypeName": "UnityEngine.BoxCollider",
             "moduleName": "Physics",
+            "usedInScenes": [
+                "Assets/Scenes/Main_Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Canvas",
+            "fullManagedTypeName": "UnityEngine.Canvas",
+            "moduleName": "UI",
+            "usedInScenes": [
+                "Assets/Scenes/Main_Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "RectTransform",
+            "fullManagedTypeName": "UnityEngine.RectTransform",
+            "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Main_Scene.unity"
             ]
@@ -451,6 +478,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Font",
+            "fullManagedTypeName": "UnityEngine.Font",
+            "moduleName": "TextRendering",
+            "usedInScenes": [
+                "Assets/Scenes/Main_Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Mesh",
             "fullManagedTypeName": "UnityEngine.Mesh",
             "moduleName": "Core",
@@ -472,6 +508,24 @@
             "nativeClass": "Texture2D",
             "fullManagedTypeName": "UnityEngine.Texture2D",
             "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Main_Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "Sprite",
+            "fullManagedTypeName": "UnityEngine.Sprite",
+            "moduleName": "Core",
+            "usedInScenes": [
+                "Assets/Scenes/Main_Scene.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CanvasRenderer",
+            "fullManagedTypeName": "UnityEngine.CanvasRenderer",
+            "moduleName": "UI",
             "usedInScenes": [
                 "Assets/Scenes/Main_Scene.unity"
             ]
@@ -529,6 +583,20 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "GameAssets",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "HandTracking",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Providers.OpenXR.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile",
@@ -543,23 +611,9 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Providers.WindowsSceneUnderstanding.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.WindowsSceneUnderstanding.Experimental.SceneUnderstandingObserverProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.AnimatedCursor",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.BaseCursor",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -615,20 +669,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.ScreenSpaceMousePointer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.ShellHandRayPointer",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.SpherePointer",
             "moduleName": "",
             "usedInScenes": []
@@ -657,21 +697,91 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Teleport.ParabolicTeleportPointer",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.PhysicalPressEventRouter",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Teleport.TeleportCursor",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonConfigHelper",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.PulseShader.PulseShaderSpatialMeshHandler",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ButtonIconSet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ConstraintManager",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.CursorContextObjectManipulator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.FaceUserConstraint",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.Interactable",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.ObjectManipulator",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.PressableButtonHoloLens2",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.RotationAxisConstraint",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.States",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.UI.Theme",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.SDK.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -714,6 +824,20 @@
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
             "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputModule",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.NearInteractionGrabbable",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.Services.InputSystem.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.NearInteractionTouchable",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -762,13 +886,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityEyeTrackingProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityGesturesProfile",
             "moduleName": "",
             "usedInScenes": []
@@ -790,21 +907,7 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputActionsProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityInputSystemProfile",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Input.MixedRealityMouseInputProfile",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -867,13 +970,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Physics.DistorterGravity",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.SceneSystem.MixedRealitySceneSystemProfile",
             "moduleName": "",
             "usedInScenes": []
@@ -895,20 +991,6 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.BezierDataProvider",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.BezierInertia",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.HoverLight",
             "moduleName": "",
             "usedInScenes": []
@@ -916,14 +998,14 @@
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.MaintainBorderLightWidth",
             "moduleName": "",
             "usedInScenes": []
         },
         {
             "managedAssemblyName": "Microsoft.MixedReality.Toolkit.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.ParabolaPhysicalLineDataProvider",
+            "fullManagedTypeName": "Microsoft.MixedReality.Toolkit.Utilities.MixedRealityLineRenderer",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -959,6 +1041,55 @@
             "managedAssemblyName": "Unity.InputSystem.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.InputSystem.RemoteInputPlayerConnection",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_ColorGradient",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_FontAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_Settings",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_SpriteAsset",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TMP_StyleSheet",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshPro",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.TextMeshPro.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "TMPro.TextMeshProUGUI",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -1099,6 +1230,34 @@
             "managedAssemblyName": "UnityEngine.UI.dll",
             "nativeClass": "",
             "fullManagedTypeName": "UnityEngine.EventSystems.EventSystem",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.ContentSizeFitter",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.GridLayoutGroup",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.Image",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "UnityEngine.UI.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.UI.VerticalLayoutGroup",
             "moduleName": "",
             "usedInScenes": []
         }
