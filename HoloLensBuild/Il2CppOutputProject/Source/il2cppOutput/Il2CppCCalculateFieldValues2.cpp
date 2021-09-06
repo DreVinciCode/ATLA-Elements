@@ -13663,9 +13663,11 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5810[1] =
 {
 	RotateObject_t220E3C583B095EF2C0166E18D6E04FA179B864C0::get_offset_of_RotateVector_4(),
 };
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5811[3] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable5811[5] = 
 {
 	Sound_tA0535EE7716E13A5443BE415CDC0B4090DCB72F3::get_offset_of_value___2() + static_cast<int32_t>(sizeof(RuntimeObject)),
+	0,
+	0,
 	0,
 	0,
 };

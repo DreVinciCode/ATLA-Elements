@@ -26452,6 +26452,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RockController_FractureEffect_m26610E93D
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = __this->get_fracturedObject_5();
 		NullCheck(L_1);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_1, (bool)1, /*hidden argument*/NULL);
+		// SoundManager.PlaySound(SoundManager.Sound.Rock_Seperate);
+		SoundManager_PlaySound_m94F56384BAFC1A000ED8B6E5BC9A90DA615F248D(2, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -26468,6 +26470,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RockController_WholeEffect_m957DA13D6EDA
 		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_1 = __this->get_fracturedObject_5();
 		NullCheck(L_1);
 		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_1, (bool)0, /*hidden argument*/NULL);
+		// SoundManager.PlaySound(SoundManager.Sound.Rock_Collide);
+		SoundManager_PlaySound_m94F56384BAFC1A000ED8B6E5BC9A90DA615F248D(3, /*hidden argument*/NULL);
 		// }
 		return;
 	}
