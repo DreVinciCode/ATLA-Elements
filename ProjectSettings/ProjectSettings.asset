@@ -128,7 +128,15 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: -4302368405016457197, guid: a0bea4714bd977448b13973b0b264906, type: 2}
+  - {fileID: 2748452699211575470, guid: 9292945b3fe48d646832d069cdeed119, type: 2}
+  - {fileID: 1295642149143230556, guid: d6c43d8dbb4859748a52271ecdf12ebb, type: 2}
+  - {fileID: 0}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -602,11 +610,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Template3D
   metroPackageVersion: 1.0.0.0
-  metroCertificatePath: 
+  metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: DreVinci Creations
+  metroCertificateIssuer: DreVinci Creations
+  metroCertificateNotAfter: 00c6e82148bcd801
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: ATLA
