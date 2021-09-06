@@ -52,12 +52,15 @@ public class RockController : MonoBehaviour
     {
         wholeObject.SetActive(false);
         fracturedObject.SetActive(true);
+        SoundManager.PlaySound(SoundManager.Sound.Rock_Seperate);
     }
 
     public void WholeEffect()
     {
         wholeObject.SetActive(true);
         fracturedObject.SetActive(false);
+        SoundManager.PlaySound(SoundManager.Sound.Rock_Collide);
+
     }
 
     public void destroyEarth()

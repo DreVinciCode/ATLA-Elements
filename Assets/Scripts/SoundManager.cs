@@ -9,6 +9,8 @@ public static class SoundManager
     {
         FireStart,
         FireContinuous,
+        Rock_Seperate,
+        Rock_Collide,
     }
 
     private static Dictionary<Sound, float> soundTimerDictionary;
