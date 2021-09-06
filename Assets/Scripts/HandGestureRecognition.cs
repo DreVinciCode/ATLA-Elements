@@ -18,15 +18,34 @@ public struct Gesture
 
 public class HandGestureRecognition : MonoBehaviour
 {
+    public GameObject EarthSystem;
+    GameObject PalmObject;
+
     private Gesture previousGesture;
 
     public List<Gesture> gestures;
     public float fist_threshold;
     public float flatpalm_threshold;
     private float curlAverage;
-    private float threshold = 0.02f;
+    private float threshold = 0.1f;
+
+    private bool _solidForm_check;
+    private bool destroy_check;
+
 
     public TMP_Text curlValues;
+
+    public event EventHandler onFistDetected;
+    public event EventHandler onFlatPalmDetected;
+    public event EventHandler onPalmDisappearnce;
+
+    MixedRealityPose pose;
+
+    private void Start()
+    {
+        _solidForm_check = false;
+        EarthSystem.SetActive(false); 
+    }
 
     // Update is called once per frame
     void Update()
@@ -50,7 +69,36 @@ public class HandGestureRecognition : MonoBehaviour
             + middleCurl + "\n"
             + ringCurl + "\n"
             + pinkyCurl + "\n"
-            + currentGesture.name;
+            + currentGesture.name + "\n"
+            + curlAverage;
+
+
+        if (curlAverage >= 0.78 && !_solidForm_check)
+        {
+            _solidForm_check = true;
+            onFistDetected?.Invoke(this, EventArgs.Empty);
+        }
+
+        else if (curlAverage < 0.78 && _solidForm_check )
+        {
+            _solidForm_check = false;
+            onFlatPalmDetected?.Invoke(this, EventArgs.Empty);
+        }
+
+        if (HandJointUtils.TryGetJointPose(TrackedHandJoint.Palm, Handedness.Both, out pose))
+        {
+            EarthSystem.SetActive(true);
+            destroy_check = true;
+        }
+        else
+        {
+            if(destroy_check)
+            {
+                destroy_check = false;
+                onPalmDisappearnce?.Invoke(this, EventArgs.Empty);
+                EarthSystem.SetActive(false);
+            }
+        }
     }
 
     Gesture RecognizedGesture()
@@ -61,6 +109,9 @@ public class HandGestureRecognition : MonoBehaviour
         float ringCurl = HandPoseUtils.RingFingerCurl(Handedness.Any);
         float pinkyCurl = HandPoseUtils.PinkyFingerCurl(Handedness.Any);
         float[] currentCurlValues = { thumbCurl, indexCurl, middleCurl, ringCurl, pinkyCurl };
+
+        curlAverage = (thumbCurl + indexCurl + middleCurl + ringCurl + pinkyCurl) / 5;
+        Rock_Distance_Lerp.influence = curlAverage;
 
         bool inRange = false;
         for (int i = 0; i < gestures.Count; i++)

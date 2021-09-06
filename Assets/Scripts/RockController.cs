@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,29 @@ public class RockController : MonoBehaviour
 
     private void Start()
     {
-        //wholeObject.SetActive(false);
+        fracturedObject.SetActive(true);
+        HandGestureRecognition handEvents = FindObjectOfType<HandGestureRecognition>();
+        handEvents.onFistDetected += HandEvents_onFistDetected;
+        handEvents.onFlatPalmDetected += HandEvents_onFlatPalmDetected;
+        handEvents.onPalmDisappearnce += HandEvents_onPalmDisappearnce;
+    }
+
+    private void HandEvents_onPalmDisappearnce(object sender, EventArgs e)
+    {
+        Debug.Log("DestroyEarth called ");
+        destroyEarth();
+    }
+
+    private void HandEvents_onFlatPalmDetected(object sender, EventArgs e)
+    {
+        Debug.Log("Fractured Called");
+        FractureEffect();
+    }
+
+    private void HandEvents_onFistDetected(object sender, EventArgs e)
+    {
+        Debug.Log("Whole Called");
+        WholeEffect();
     }
 
     private void Update()
@@ -27,14 +50,20 @@ public class RockController : MonoBehaviour
 
     public void FractureEffect()
     {
-        Instantiate(fracturedObject, transform.position, transform.rotation, GameObject.Find("EarthSystem").transform);
-        Destroy(gameObject);
+        wholeObject.SetActive(false);
+        fracturedObject.SetActive(true);
     }
 
     public void WholeEffect()
     {
-        Instantiate(wholeObject, transform.position, transform.rotation, GameObject.Find("EarthSystem").transform);
-        Destroy(gameObject);
+        wholeObject.SetActive(true);
+        fracturedObject.SetActive(false);
+    }
+
+    public void destroyEarth()
+    {
+        wholeObject.SetActive(false);
+        fracturedObject.SetActive(false);
     }
 
 }

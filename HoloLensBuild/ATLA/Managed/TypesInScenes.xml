@@ -58,7 +58,11 @@
 	<assembly fullname="Assembly-CSharp">
 		<type fullname="FireElement" preserve="nothing"/>
 		<type fullname="GameAssets" preserve="nothing"/>
+		<type fullname="HandGestureRecognition" preserve="nothing"/>
 		<type fullname="HandTracking" preserve="nothing"/>
+		<type fullname="RockController" preserve="nothing"/>
+		<type fullname="Rock_Distance_Lerp" preserve="nothing"/>
+		<type fullname="RotateObject" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Providers.OpenXR">
 		<type fullname="Microsoft.MixedReality.Toolkit.XRSDK.OpenXR.OpenXRCameraSettingsProfile" preserve="nothing"/>
@@ -93,6 +97,7 @@
 		<type fullname="Microsoft.MixedReality.Toolkit.UI.Theme" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.GridObjectCollection" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.HandConstraintPalmUp" preserve="nothing"/>
+		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.Orbital" preserve="nothing"/>
 		<type fullname="Microsoft.MixedReality.Toolkit.Utilities.Solvers.SolverHandler" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Microsoft.MixedReality.Toolkit.Services.InputAnimation">
