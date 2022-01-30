@@ -32,7 +32,6 @@ public class HandGestureRecognition : MonoBehaviour
     private bool _solidForm_check;
     private bool destroy_check;
 
-
     public TMP_Text curlValues;
 
     public event EventHandler onFistDetected;
